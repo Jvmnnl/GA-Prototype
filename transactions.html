@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayLater</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="transactions.css" rel="stylesheet">
+    <style>
+        .purchases {
+            color: white;
+            margin-left: 25px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        .completed {
+            color: white;
+            margin-left: 25px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        .trans {
+            color: black;
+            background-color: white;
+            padding: 10px;
+            box-sizing: border-box; 
+            
+        }
+
+        .trans .end-date{
+            color: red
+        }
+
+        .trans2 {
+            color: black;
+            background-color: white;
+            padding: 10px;
+            box-sizing: border-box; 
+            overflow: hidden;
+            margin-top: 15px;
+        }
+
+        .trans2 .end-date{
+            color: red
+        }
+
+        .comppur {
+            color: black;
+            background-color: white;
+            padding: 10px;
+            box-sizing: border-box; 
+            ;
+        }
+
+        .comppur2 {
+            color: black;
+            background-color: white;
+            padding: 10px;
+            box-sizing: border-box; 
+            overflow: hidden;
+            margin-top: 15px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="transactions.html">Transactions</a></li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="search">Search</button>
+            </form> 
+          </nav>
+        </div>
+
+        <div class="purchases">
+            <h1>My Purchases</h1>
+        </div>
+
+        <div class="trans">
+            <div class="date"><p>Wed, 8th May 2024</p></div>
+            <div class="id"><h1>Transaction ID: 74031049</h1></div>
+            <div class="description"><h1>Description: SONY XM-5 Headphones</h1></div>
+            <div class="end-date"><p>Payment Ending: 8th July 2024</p></div>
+        </div>
+
+        <div class="trans2">
+            <div class="date"><p>Sat, 7th April 2024</p></div>
+            <div class="id"><h1>Transaction ID: 74031048</h1></div>
+            <div class="description"><h1>Description: Iphone 15 Pro Max</h1></div>
+            <div class="end-date"><p>Payment Ending: 7th June 2024</p></div>
+        </div>
+
+        <div class="completed">
+            <h1>Completed Purchases</h1>
+        </div>
+
+        <div class="comppur">
+            <div class="date"><p>Sat, 7th April 2024</p></div>
+            <div class="id"><h1>Transaction ID: 74031062</h1></div>
+            <div class="description"><h1>Description: ASUS Gaming Laptop</h1></div>
+        </div>
+
+        <div class="comppur2">
+            <div class="date"><p>Sun, 6th March 2024</p></div>
+            <div class="id"><h1>Transaction ID: 74031168</h1></div>
+            <div class="description"><h1>Description: Apple Airpods</h1></div>
+        </div>
+</body>
+</html>
